@@ -6,7 +6,7 @@ if [ $# -ne 1 ]; then
 fi
 
 LOG_DIR=$1
-	LOG_ARCHIVE_DIR="/var/tmp/log_archives"
+LOG_ARCHIVE_DIR="/var/tmp/log_archives"
 TIMESTAMP="$(date +%Y%m%d_%H%M%S)"
 COMPRESSED_FILE_NAME="logs_archive_$TIMESTAMP.tar.gz"
 LOG_FILE="logs.txt"
